@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multe Calculadora</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregarSub()">
+
+    <header id="cabecalho">
+        <p><a href="multplicacao.html">Multiplicação</a></p>
+        <p><a href="divisao.html">Adição</a></p>
+        <p><a href="divisao.html">Divisão</a></p>
+    </header>
+
+
+<main id="corpo">
+
+    <section>
+        <div>
+            <p class="p1">Digite o número que deseja fazer a operação</p>
+            <input type="number" name="num" id="txtn" placeholder="Ex: 5">
+            <p class="p2">Até que numero deseja fazer a operação</p>
+            <input type="number" name="numope" id="txtope" placeholder="Ex: 10"> 
+               
+            <p class="botao">
+                <input type="button" value="gerar tabuada" onclick="tabuadaSub()">
+            </p>
+        </div>
+
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
+        </div>   
+    </section>
+
+    <aside id="lateral">
+        <h2 id="emogSub">Tabuda de Subtração</h2></br>
+        <p>&nbsp;Consiste em <strong>subtrair</strong>  dois ou mais números tendo um outro número como resultado. O sinal indicativo da subtração é o <strong>“sinal de menos” (–)</strong>.&nbsp;</br> Os números antes do sinal de igual são chamados de minuendo e subtraendo. O valor após o sinal de igualdade é chamado de diferença ou resto.</p>
+    </aside>
+        
+    <footer id="rodape">
+        <p><a class="git" href="https://github.com/NatanSiilva">&copy;   Natanael Silva</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multe Calculadora</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregarDiv()">
+
+    <header id="cabecalho">
+        <p><a href="multplicacao.html">Multiplicação</a></p>
+        <p><a href="adicao.html">Adição</a></p>
+        <p><a href="subtracao.html">Subtração</a></p>
+        <span id="emogi">n</span>
+    </header>
+
+
+<main id="corpo">
+
+    <section>
+        <div>
+            <p class="p1">Digite o número que deseja fazer a operação</p>
+            <input type="number" name="num" id="txtn" placeholder="Ex: 5">
+            <p class="p2">Até que numero deseja fazer a operação</p>
+            <input type="number" name="numope" id="txtope" placeholder="Ex: 10"> 
+               
+            <p class="botao">
+                <input type="button" value="gerar tabuada" onclick="tabuadaDiv()" >
+            </p>
+        </div>
+
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
+        </div>   
+    </section>
+
+    <aside id="lateral">
+        <h2 id="emogDiv">Tabuda de Divisão</h2></br>
+        <p>&nbsp;A <strong>divisão</strong>  é uma das quatro operações fundamentais da aritmética. Consiste em dividir dois números, o dividendo e o divisor, que produz dois resultados chamados de quociente e resto. <strong>Seu símbolo é o “÷”.</strong>...</br> &nbsp;A divisão é o ato de dividir em partes iguais para todos.  </p>
+    </aside>
+        
+    <footer id="rodape">
+        <p><a class="git" href="https://github.com/NatanSiilva">&copy;   Natanael Silva</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="introemogi.js"></script>
+
+</main>
+</body>
+</html>

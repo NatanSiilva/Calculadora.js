@@ -1,0 +1,186 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: red;
+
+}
+
+header p {
+
+    margin: auto;
+    padding: 50px;
+    
+}
+
+header a {
+
+    text-decoration: none;
+
+    color: white;
+    background: black;
+
+    padding: 20px;
+    border-radius: 10px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+p.p1 {
+
+  background: black;
+  color: white;
+
+  height: 40px;
+  padding-top: 20px;
+  border-radius: 10px;
+
+  box-shadow: 6px 6px 5px black;
+  font-family: 'Roboto', sans-serif;
+}
+
+p.p2 {
+
+    background: black;
+    color: white;
+  
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+
+    box-shadow: 6px 6px 5px black;
+    font-family: 'Roboto', sans-serif;
+  }
+
+p.botao {
+
+    margin-top: 10px;
+}
+
+p input {
+
+    background: black;
+    color: white;
+
+    height: 30px;
+    width: 100px;
+
+    border-radius: 8px;
+}
+
+p input:hover {
+
+    color: red;
+}
+
+header a:hover {
+
+    color: red;
+}
+
+body {
+
+    background:black;
+
+    font: normal 15pt arial;
+
+    text-align: center;
+    
+}
+
+
+main#corpo {
+
+    margin-top: 3%;
+
+}
+
+section {
+
+    background: #f5f5f5;
+
+    border-radius: 10px;
+
+    width: 500px;
+    margin-left: 150px;
+    padding: 15px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
+}
+
+aside {
+
+    display: block;
+    position: relative;
+    float: right;
+
+    width: 400px;
+    right: 150px;
+    bottom: 450px;
+   
+    color: white;
+}
+
+aside p {
+
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+footer a {
+
+    color: white;
+    font-style: italic;
+
+}
+
+a.git {
+    display: block;
+    margin-left: 450px;
+    margin-top: 50px;
+    
+    text-decoration: none;
+}
+
+a.git:hover {
+
+    color: red;
+}
+
+select#seltab {
+
+    margin-top: 10px;
+    border: 0 none;
+}
+
+input#txtn {
+
+    margin-top: 20px;
+}
+
+input#txtope {
+
+    margin-top: 20px;
+}
+

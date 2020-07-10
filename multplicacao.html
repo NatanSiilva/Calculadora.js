@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multe Calculadora</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregarMult()">
+
+    <header id="cabecalho">
+        <p><a href="divisao.html">Divisão</a></p>
+        <p><a href="adicao.html">Adição</a></p>
+        <p><a href="subtracao.html">Subtração</a></p>
+    </header>
+
+
+<main id="corpo">
+
+    <section>
+        <div>
+            <p class="p1">Digite o número que deseja fazer a operação</p>
+            <input type="number" name="num" id="txtn" placeholder="Ex: 5"/>
+            <p class="p2">Até que numero deseja fazer a operação</p>
+            <input type="number" name="numope" id="txtope" placeholder="Ex: 10"/> 
+               
+            <p class="botao">
+                <input type="button" value="gerar tabuada" onclick="tabuadaMult()"/>
+            </p>
+        </div>
+
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
+        </div>   
+    </section>
+
+    <aside id="lateral">
+        <h2 id="emogMult">Tabuda de Multiplicação</h2></br>
+        <p>&nbsp;A multiplicação é uma das operações matemáticas básicas. Ela é uma evolução natural da adição, pois é definida de modo que represente a soma de determinado número de conjuntos que possuem a mesma quantidade de elementos.<br>
+
+            &nbsp; <strong>Por exemplo:</strong>  é usual comprar muitos exemplares de um mesmo produto em supermercados. Caso compre oito produtos que custem R$ 2,00, o total a ser pago será de R$ 16,00, pois somamos o valor R$ 2,00 oito vezes. Sendo assim:
+            
+            <strong>2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 = 16</strong>  </p>
+    </aside>
+        
+    <footer id="rodape">
+        <p><a class="git" href="https://github.com/NatanSiilva">&copy;   Natanael Silva</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+
+</main>
+</body>
+</html>
